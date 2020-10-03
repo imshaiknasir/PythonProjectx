@@ -1,4 +1,4 @@
-values = [1, 2, "nasir", 3, 7]
+values = [1, 2, "test", 3, 7]
 
 values.append(7)
 values.insert(0, "one")
