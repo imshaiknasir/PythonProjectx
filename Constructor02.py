@@ -9,17 +9,15 @@ class Truck:
 
     def __init__(self,x):
         self.name = x
-        self.age = x
+
+    def getSomeText(self):
+        print("Some dummy text")
 
     def getName(self):
-        print(f"Name: {self.name} {self.brand}")
-
-    def getAge(self):
-        print(f"Age:  {self.age} {self.brand}")
+        return self.name
 
 #object creation
 obj1 = Truck("Sachin")
-obj2 = Truck("55")
 
-obj1.getName()
-obj2.getAge()
+obj1.getSomeText()
+print(obj1.getName())
