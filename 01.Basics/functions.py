@@ -1,6 +1,6 @@
 #Functions in python:
 
-#function definition
+#defining a function
 def Call1():
     print("This is a function.")
 
@@ -13,7 +13,7 @@ def AddInts(a,b):
 def ReturnCall(x, y):
     return x*y
 
-#function declaration
+#declating function
 Call1()
 Call2("Test")
 AddInts(2,5)
