@@ -1,4 +1,4 @@
-from Constructor02 import Truck
+from Basics.Constructor02 import Truck
 
 
 class Child(Truck):
